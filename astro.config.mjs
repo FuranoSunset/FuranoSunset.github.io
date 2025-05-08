@@ -6,7 +6,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://github.com/FuranoSunset'
+  site: 'https://FuranoSunset.github.io',
+  base: 'FuranoSunset.github.io',
   integrations: [
     react(),
     tailwind({
